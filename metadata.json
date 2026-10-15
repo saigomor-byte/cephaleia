@@ -1,0 +1,6 @@
+{
+  "name": "Céphaleia - Suivi des Migraines",
+  "description": "Application mobile pour l'enregistrement, le suivi quotidien et l'analyse médicale des crises de migraine avec mode SOS apaisant et export pour neurologue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

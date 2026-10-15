@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#0f172a"/>
+  <circle cx="256" cy="256" r="190" fill="#1e293b"/>
+  <!-- Calming Neurological Brain & Heartbeat Pulse Wave -->
+  <path d="M 120 256 L 180 256 L 210 190 L 250 330 L 290 220 L 320 270 L 340 256 L 392 256" 
+        fill="none" stroke="#f43f5e" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Soothing halo ring -->
+  <circle cx="256" cy="256" r="215" fill="none" stroke="#e11d48" stroke-width="6" stroke-opacity="0.35" stroke-dasharray="14 10"/>
+</svg>

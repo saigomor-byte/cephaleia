@@ -1,0 +1,42 @@
+{
+  "id": "/",
+  "name": "Céphaleia - Suivi des Migraines",
+  "short_name": "Céphaleia",
+  "description": "Application mobile d'enregistrement, d'analyse et de suivi médical des migraines avec mode SOS.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "SOS Crise Immédiat",
+      "short_name": "SOS Crise",
+      "description": "Enregistrer et apaiser une crise en un tap",
+      "url": "/?action=sos",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Enregistrer une crise",
+      "short_name": "Noter crise",
+      "description": "Saisir une crise dans le journal médical",
+      "url": "/?action=new_crisis",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Traitement de fond",
+      "short_name": "Traitements",
+      "description": "Valider la prise du jour",
+      "url": "/?action=preventive",
+      "icons": [{ "src": "/icon.svg", "sizes": "any" }]
+    }
+  ]
+}
