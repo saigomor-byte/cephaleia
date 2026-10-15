@@ -14,8 +14,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Accepter les licences Android SDK
+        run: |
+          yes | sdkmanager --licenses || true
 
       - name: Generer la configuration Gradle
         run: |
@@ -47,7 +48,7 @@ jobs:
           }
           EOF
 
-          # 3. Preparer le module app
+          # 3. Module app et structure de code
           mkdir -p app/src/main
           if [ -d "src" ]; then
             cp -r src/* app/src/main/ || true
